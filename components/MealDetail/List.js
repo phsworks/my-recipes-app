@@ -5,6 +5,7 @@ function List({ data }) {
     <View key={dataPoint} style={styles.listItem}>
       <Text style={styles.itemText}>{dataPoint}</Text>
     </View>
+    
   ));
 }
 
@@ -24,3 +25,4 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+

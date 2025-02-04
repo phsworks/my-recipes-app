@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import { StyleSheet, FlatList } from "react-native";
 import { CATEGORIES } from "../data/recipes-data";
 import CategoryGridTile from "../components/CategoryGridTile";
 
@@ -29,8 +29,6 @@ function CategoriesScreen({ navigation }) {
   );
 }
 
-const styles = StyleSheet.create({
-  
-});
+
 
 export default CategoriesScreen;

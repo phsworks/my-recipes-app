@@ -21,7 +21,7 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }) 
   }
 
   return (
-    <View style={styles.mealITem}>
+    <View style={styles.mealItem}>
       <Pressable onPress={selectMealItemHandler} android_ripple={{color: 'grey'}} style={({pressed}) => (pressed ? styles.buttonPressed : null)} >
         <View>
           <View style={styles.container}>
@@ -37,7 +37,7 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }) 
 }
 
 const styles = StyleSheet.create({
-  mealITem: {
+  mealItem: {
     margin: 16,
     borderRadius: 8,
     overflow: "hidden",

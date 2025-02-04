@@ -17,6 +17,8 @@ function MealDetails({
         {affordability.toUpperCase()}
       </Text>
     </View>
+
+
   );
 }
 
