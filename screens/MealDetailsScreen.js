@@ -5,7 +5,6 @@ import {
   Image,
   StyleSheet,
   ScrollView,
-  Button,
 } from "react-native";
 import { MEALS } from "../data/recipes-data";
 import MealDetails from "../components/MealDetails";
@@ -21,6 +20,7 @@ function MealDetailScreen({ route, navigation }) {
   function headerButtonPressHandler() {
     console.log("Pressed");
   }
+  
 
   useEffect(() => {
     navigation.setOptions({
@@ -29,6 +29,8 @@ function MealDetailScreen({ route, navigation }) {
       },
     });
   }, [navigation, headerButtonPressHandler]);
+
+
 
 
   return (

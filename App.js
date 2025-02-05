@@ -36,7 +36,7 @@ function DrawerNavigator() {
         name="Favorites"
         component={FavoritesScreen}
         options={{
-          title: "All Categories",
+          title: "Your Favorites",
           drawerIcon: ({ color, size }) => (
             <Ionicons name="star" color={color} size={size} />
           ),
