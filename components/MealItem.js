@@ -44,12 +44,7 @@ const styles = StyleSheet.create({
     overflow: Platform.OS === "android" ? "hidden" : "visible",
     backgroundColor: "white",
     elevation: 4,
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 5.46,
+    boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.8)",
   },
   buttonPressed: {
     opacity: 0.3,

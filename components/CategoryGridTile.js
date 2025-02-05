@@ -30,12 +30,7 @@ const styles = StyleSheet.create({
     shadowColor: "black",
     backgroundColor: "white",
     overflow: Platform.OS === "android" ? "hidden" : "visible",
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 5.46,
+    boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.8)",
   },
   button: {
     flex: 1,
