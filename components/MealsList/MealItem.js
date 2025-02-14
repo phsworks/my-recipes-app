@@ -36,15 +36,15 @@ function MealItem({ id, title, imageUrl, duration, complexity, affordability }) 
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
   mealItem: {
     margin: 16,
-    borderRadius: 8,
     overflow: "hidden",
     overflow: Platform.OS === "android" ? "hidden" : "visible",
     backgroundColor: "white",
     elevation: 4,
     boxShadow: "0px 2px 2px rgba(0, 0, 0, 0.8)",
+    borderRadius: 8,
   },
   buttonPressed: {
     opacity: 0.3,
@@ -52,6 +52,8 @@ const styles = StyleSheet.create({
   image: {
     width: "100%",
     height: 200,
+    borderTopLeftRadius:8,
+    borderTopRightRadius: 8,
   },
   title: {
     fontWeight: "600",
